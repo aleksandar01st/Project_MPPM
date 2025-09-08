@@ -11,6 +11,7 @@
 namespace FTN {
     using System;
     using FTN;
+    using System.Collections.Generic;
     
     
     /// Specifies a set of equipment that works together to control a power system quantity such as voltage or flow.
@@ -26,16 +27,23 @@ namespace FTN {
         /// The regulating control mode presently available.  This specifications allows for determining the kind of regualation without need for obtaining the units from a schedule.
         private RegulatingControlModeKind? cim_mode;
         
-        private const bool isModeMandatory = true;
+        private const bool isModeMandatory = false;
         
         private const string _modePrefix = "cim";
         
         /// Phase voltage controlling this regulator, measured at regulator location.
         private PhaseCode? cim_monitoredPhase;
         
-        private const bool isMonitoredPhaseMandatory = true;
+        private const bool isMonitoredPhaseMandatory = false;
         
         private const string _monitoredPhasePrefix = "cim";
+        
+        /// The equipment that participates in this regulating control scheme.
+        private List<RegulatingCondEq> cim_RegulatingCondEq = new List<RegulatingCondEq>();
+        
+        private const bool isRegulatingCondEqMandatory = true;
+        
+        private const string _RegulatingCondEqPrefix = "cim";
         
         /// This is the case input target range.   This performs the same function as the value2 attribute on the regulation schedule in the case that schedules are not used.   The units of those appropriate for the mode.
         private System.Single? cim_targetRange;
@@ -50,13 +58,6 @@ namespace FTN {
         private const bool isTargetValueMandatory = false;
         
         private const string _targetValuePrefix = "cim";
-        
-        /// The terminal associated with this regulating control.  The terminal is associated instead of a node, since the terminal could connect into either a topological node (bus in bus-branch model) or a connectivity node (detailed switch model).  Sometimes it is useful to model regulation at a terminal of a bus bar object since the bus bar can be present in both a bus-branch model or a model with switch detail.
-        private Terminal cim_Terminal;
-        
-        private const bool isTerminalMandatory = false;
-        
-        private const string _TerminalPrefix = "cim";
         
         public virtual bool Discrete {
             get {
@@ -139,6 +140,33 @@ namespace FTN {
             }
         }
         
+        public virtual List<RegulatingCondEq> RegulatingCondEq {
+            get {
+                return this.cim_RegulatingCondEq;
+            }
+            set {
+                this.cim_RegulatingCondEq = value;
+            }
+        }
+        
+        public virtual bool RegulatingCondEqHasValue {
+            get {
+                return this.cim_RegulatingCondEq != null;
+            }
+        }
+        
+        public static bool IsRegulatingCondEqMandatory {
+            get {
+                return isRegulatingCondEqMandatory;
+            }
+        }
+        
+        public static string RegulatingCondEqPrefix {
+            get {
+                return _RegulatingCondEqPrefix;
+            }
+        }
+        
         public virtual float TargetRange {
             get {
                 return this.cim_targetRange.GetValueOrDefault();
@@ -190,33 +218,6 @@ namespace FTN {
         public static string TargetValuePrefix {
             get {
                 return _targetValuePrefix;
-            }
-        }
-        
-        public virtual Terminal Terminal {
-            get {
-                return this.cim_Terminal;
-            }
-            set {
-                this.cim_Terminal = value;
-            }
-        }
-        
-        public virtual bool TerminalHasValue {
-            get {
-                return this.cim_Terminal != null;
-            }
-        }
-        
-        public static bool IsTerminalMandatory {
-            get {
-                return isTerminalMandatory;
-            }
-        }
-        
-        public static string TerminalPrefix {
-            get {
-                return _TerminalPrefix;
             }
         }
     }

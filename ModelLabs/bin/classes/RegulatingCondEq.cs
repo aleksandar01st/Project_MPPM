@@ -11,42 +11,43 @@
 namespace FTN {
     using System;
     using FTN;
+    using System.Collections.Generic;
     
     
     /// A type of conducting equipment that can regulate a quanity (i.e. voltage or flow) at a specific point in the network.
     public class RegulatingCondEq : ConductingEquipment {
         
-        /// The regulating control scheme in which this equipment participates.
-        private RegulatingControl cim_RegulatingControl;
+        /// The controller outputs used to actually govern a regulating device, e.g. the magnetization of a synchronous machine or capacitor bank breaker actuator.
+        private List<Control> cim_Controls = new List<Control>();
         
-        private const bool isRegulatingControlMandatory = false;
+        private const bool isControlsMandatory = true;
         
-        private const string _RegulatingControlPrefix = "cim";
+        private const string _ControlsPrefix = "cim";
         
-        public virtual RegulatingControl RegulatingControl {
+        public virtual List<Control> Controls {
             get {
-                return this.cim_RegulatingControl;
+                return this.cim_Controls;
             }
             set {
-                this.cim_RegulatingControl = value;
+                this.cim_Controls = value;
             }
         }
         
-        public virtual bool RegulatingControlHasValue {
+        public virtual bool ControlsHasValue {
             get {
-                return this.cim_RegulatingControl != null;
+                return this.cim_Controls != null;
             }
         }
         
-        public static bool IsRegulatingControlMandatory {
+        public static bool IsControlsMandatory {
             get {
-                return isRegulatingControlMandatory;
+                return isControlsMandatory;
             }
         }
         
-        public static string RegulatingControlPrefix {
+        public static string ControlsPrefix {
             get {
-                return _RegulatingControlPrefix;
+                return _ControlsPrefix;
             }
         }
     }

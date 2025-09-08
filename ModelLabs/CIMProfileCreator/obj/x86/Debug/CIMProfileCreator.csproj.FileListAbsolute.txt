@@ -35,3 +35,17 @@ C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\ModelLabsProjekat\M
 C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.CoreCompileInputs.cache
 C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe
 C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.pdb
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\Predefined\PredefinedClasses.xml
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\Predefined\PredefinedEnumerations.xml
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\Predefined\PredefinedPackages.xml
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe.config
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMProfileCreator.pdb
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.AssemblyReference.cache
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe.config
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.CIMProfileCreatorForm.resources
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.Properties.Resources.resources
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.GenerateResource.cache
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.pdb
