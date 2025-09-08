@@ -11,10 +11,17 @@ namespace FTN.Common
 
 		public EnumDescs()
 		{
-			property2enumType.Add(ModelCode.CONDEQ_PHASES, typeof(PhaseCode));
-			property2enumType.Add(ModelCode.POWERTR_FUNC, typeof(TransformerFunction));
-			property2enumType.Add(ModelCode.POWERTRWINDING_CONNTYPE, typeof(WindingConnection));
-			property2enumType.Add(ModelCode.POWERTRWINDING_WINDTYPE, typeof(WindingType));														
+			property2enumType.Add(ModelCode.REGULATING_CONTROL_MODE, typeof(RegulatingControlModeKind));
+			property2enumType.Add(ModelCode.REGULATING_CONTROL_M_PHASE, typeof(PhaseCode));
+			property2enumType.Add(ModelCode.CURVE_STYLE, typeof(CurveStyle));
+			property2enumType.Add(ModelCode.CURVE_X_MULTI, typeof(UnitMultiplier));														
+			property2enumType.Add(ModelCode.CURVE_Y1_MULTI, typeof(UnitMultiplier));														
+			property2enumType.Add(ModelCode.CURVE_Y2_MULTI, typeof(UnitMultiplier));														
+			property2enumType.Add(ModelCode.CURVE_Y3_MULTI, typeof(UnitMultiplier));														
+			property2enumType.Add(ModelCode.CURVE_X_UNIT, typeof(UnitSymbol));														
+			property2enumType.Add(ModelCode.CURVE_Y1_UNIT, typeof(UnitSymbol));														
+			property2enumType.Add(ModelCode.CURVE_Y2_UNIT, typeof(UnitSymbol));														
+			property2enumType.Add(ModelCode.CURVE_Y3_UNIT, typeof(UnitSymbol));														
 		}
 
 		public List<string> GetEnumList(ModelCode propertyId)

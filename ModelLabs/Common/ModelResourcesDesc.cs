@@ -866,20 +866,22 @@ namespace FTN.Common
 
 		private void InitializeTypeIdsInInsertOrder()
 		{			
-			typeIdsInInsertOrder.Add(ModelCode.BASEVOLTAGE);
-			typeIdsInInsertOrder.Add(ModelCode.LOCATION);
-			typeIdsInInsertOrder.Add(ModelCode.POWERTR);
-			typeIdsInInsertOrder.Add(ModelCode.POWERTRWINDING);
-			typeIdsInInsertOrder.Add(ModelCode.WINDINGTEST);			
+			typeIdsInInsertOrder.Add(ModelCode.CURVE_DATA);
+			typeIdsInInsertOrder.Add(ModelCode.CONTROL);
+			typeIdsInInsertOrder.Add(ModelCode.TERMINAL);
+			typeIdsInInsertOrder.Add(ModelCode.SYNCHRONOUS_MACHINE);
+			typeIdsInInsertOrder.Add(ModelCode.REACTIVE_CAPABILITY_CURVE);
+			typeIdsInInsertOrder.Add(ModelCode.TAP_CHANGER_CONTROL);			
 		}
 
 		private void InitializeNotSettablePropertyIds()
 		{			
 			notSettablePropertyIds.Add(ModelCode.IDOBJ_GID);
-			notSettablePropertyIds.Add(ModelCode.BASEVOLTAGE_CONDEQS);
-			notSettablePropertyIds.Add(ModelCode.LOCATION_PSRS);
-			notSettablePropertyIds.Add(ModelCode.POWERTRWINDING_TESTS);
-            notSettablePropertyIds.Add(ModelCode.POWERTR_WINDINGS);	
+			notSettablePropertyIds.Add(ModelCode.CONDEQ_TERMINAL);
+			notSettablePropertyIds.Add(ModelCode.REGULATING_COND_EQ_CTRL);
+			notSettablePropertyIds.Add(ModelCode.REGULATING_CONTROL_RCEQ);
+            notSettablePropertyIds.Add(ModelCode.CURVE_CRV_DATAS);	
+            notSettablePropertyIds.Add(ModelCode.REACTIVE_CAPABILITY_CURVE_SYM);	
 		}
 	
 		# endregion Initialization of metadata
