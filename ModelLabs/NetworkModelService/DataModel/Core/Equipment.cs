@@ -10,110 +10,110 @@ using FTN.Common;
 namespace FTN.Services.NetworkModelService.DataModel.Core
 {
 	public class Equipment : PowerSystemResource
-	{		
-		private bool isUnderground;
-		private bool isPrivate;
-						
-		public Equipment(long globalId) : base(globalId) 
-		{
-		}
-	
-		public bool IsUnderground
-		{
-			get
-			{
-				return isUnderground;
-			}
+	{
+        private bool aggregate;
+        private bool normallylnService;
 
-			set
-			{
-				isUnderground = value;
-			}
-		}
+        public Equipment(long globalId) : base(globalId)
+        {
+        }
 
-		public bool IsPrivate
-		{
-			get 
-			{
-				return isPrivate; 
-			}
-			
-			set
-			{ 
-				isPrivate = value; 
-			}
-		}
+        public bool Aggregate
+        {
+            get
+            {
+                return aggregate;
+            }
 
-		public override bool Equals(object obj)
-		{
-			if (base.Equals(obj))
-			{
-				Equipment x = (Equipment)obj;
-				return ((x.isUnderground == this.isUnderground) &&
-						(x.isPrivate == this.isPrivate));
-			}
-			else
-			{
-				return false;
-			}
-		}
+            set
+            {
+                aggregate = value;
+            }
+        }
 
-		public override int GetHashCode()
-		{
-			return base.GetHashCode();
-		}
+        public bool NormallylnService
+        {
+            get
+            {
+                return normallylnService;
+            }
 
-		#region IAccess implementation
+            set
+            {
+                normallylnService = value;
+            }
+        }
 
-		public override bool HasProperty(ModelCode property)
-		{
-			switch (property)
-			{
-				case ModelCode.EQUIPMENT_ISUNDERGROUND:
-				case ModelCode.EQUIPMENT_ISPRIVATE:
-		
-					return true;
-				default:
-					return base.HasProperty(property);
-			}
-		}
+        public override bool Equals(object obj)
+        {
+            if (base.Equals(obj))
+            {
+                Equipment x = (Equipment)obj;
+                return ((x.aggregate == this.aggregate) &&
+                        (x.normallylnService == this.normallylnService));
+            }
+            else
+            {
+                return false;
+            }
+        }
 
-		public override void GetProperty(Property property)
-		{
-			switch (property.Id)
-			{
-				case ModelCode.EQUIPMENT_ISUNDERGROUND:
-					property.SetValue(isUnderground);
-					break;
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
 
-				case ModelCode.EQUIPMENT_ISPRIVATE:
-					property.SetValue(isPrivate);
-					break;			
+        #region IAccess implementation
 
-				default:
-					base.GetProperty(property);
-					break;
-			}
-		}
+        public override bool HasProperty(ModelCode property)
+        {
+            switch (property)
+            {
+                case ModelCode.EQUIPMENT_AGGREGATE:
+                case ModelCode.EQUIPMENT_NORMALLYINSERVICE:
 
-		public override void SetProperty(Property property)
-		{
-			switch (property.Id)
-			{
-				case ModelCode.EQUIPMENT_ISUNDERGROUND:					
-					isUnderground = property.AsBool();
-					break;
+                    return true;
+                default:
+                    return base.HasProperty(property);
+            }
+        }
 
-				case ModelCode.EQUIPMENT_ISPRIVATE:
-					isPrivate = property.AsBool();
-					break;
-			
-				default:
-					base.SetProperty(property);
-					break;
-			}
-		}		
+        public override void GetProperty(Property property)
+        {
+            switch (property.Id)
+            {
+                case ModelCode.EQUIPMENT_AGGREGATE:
+                    property.SetValue(aggregate);
+                    break;
 
-		#endregion IAccess implementation
-	}
+                case ModelCode.EQUIPMENT_NORMALLYINSERVICE:
+                    property.SetValue(normallylnService);
+                    break;
+
+                default:
+                    base.GetProperty(property);
+                    break;
+            }
+        }
+
+        public override void SetProperty(Property property)
+        {
+            switch (property.Id)
+            {
+                case ModelCode.EQUIPMENT_AGGREGATE:
+                    aggregate = property.AsBool();
+                    break;
+
+                case ModelCode.EQUIPMENT_NORMALLYINSERVICE:
+                    normallylnService = property.AsBool();
+                    break;
+
+                default:
+                    base.SetProperty(property);
+                    break;
+            }
+        }
+
+        #endregion IAccess implementation
+    }
 }

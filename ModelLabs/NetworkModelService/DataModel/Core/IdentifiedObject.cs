@@ -133,8 +133,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 			else
 			{
 				IdentifiedObject io = (IdentifiedObject)x;
-				return ((io.GlobalId == this.GlobalId) && (io.name == this.name) && (io.mrid == this.mrid) &&
-						(io.description == this.description));
+				return ((io.GlobalId == this.GlobalId));
 			}
 		}
 		
@@ -149,10 +148,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 		{
 			switch(property)
 			{
-				case ModelCode.IDOBJ_GID:				
-				case ModelCode.IDOBJ_NAME:
-				case ModelCode.IDOBJ_DESCRIPTION:
-				case ModelCode.IDOBJ_MRID:
+				case ModelCode.IDOBJ_GID:	
 					return true;
 
 				default:				
@@ -167,18 +163,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 				case ModelCode.IDOBJ_GID:
 					property.SetValue(globalId);
 					break;
-
-				case ModelCode.IDOBJ_NAME:
-					property.SetValue(name);
-					break;
-
-				case ModelCode.IDOBJ_MRID:
-					property.SetValue(mrid);
-					break;
-
-                case ModelCode.IDOBJ_DESCRIPTION:
-                    property.SetValue(description);
-                    break;
 			
 				default:
 					string message = string.Format("Unknown property id = {0} for entity (GID = 0x{1:x16}).", property.Id.ToString(), this.GlobalId);
@@ -191,18 +175,6 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 		{
 			switch(property.Id)
 			{
-				case ModelCode.IDOBJ_NAME:
-					name = property.AsString();					
-					break;
-
-				case ModelCode.IDOBJ_DESCRIPTION:
-					description = property.AsString();					
-					break;
-
-				case ModelCode.IDOBJ_MRID:					
-					mrid = property.AsString();
-					break;				
-
 				default:					
 					string message = string.Format("Unknown property id = {0} for entity (GID = 0x{1:x16}).", property.Id.ToString(), this.GlobalId);
 					CommonTrace.WriteTrace(CommonTrace.TraceError, message);

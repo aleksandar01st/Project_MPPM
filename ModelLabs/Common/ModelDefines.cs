@@ -34,10 +34,12 @@ namespace FTN.Common
 
         REGULATING_COND_EQ					= 0x1111100000000000,
         REGULATING_COND_EQ_CTRL				= 0x1111100000000119,
+        REGULATING_COND_EQ_REG_CTRL 		= 0x1111100000000209, // REF NA REGULATING_CONTROL
 
         ROTATING_MACHINE					= 0x1111110000000000,
 
         SYNCHRONOUS_MACHINE					= 0x1111111000040000,
+        SYNCHRONOUS_MACHINE_RCC 			= 0x1111111000040109, //REF NA REACTIVE_CAPABILITY_CURVE
 
         REGULATING_CONTROL					= 0x1120000000000000,
         REGULATING_CONTROL_DISC				= 0x1120000000000101, //DISCRETE
@@ -56,8 +58,10 @@ namespace FTN.Common
         TAP_CHANGER_CONTROL_RLDX            = 0x1121000000050605,
 
         TERMINAL                            = 0x1200000000060000,
+        TERMINAL_COND_EQ                    = 0x1200000000060109,
 
         CONTROL                             = 0x1300000000010000,
+        CONTROL_REG_COND_EQ                 = 0x1300000000010109,
 
         CURVE                               = 0x1400000000020000,
         CURVE_STYLE                         = 0x140000000002010a,
@@ -79,6 +83,7 @@ namespace FTN.Common
         CURVE_DATA_Y1_VALUE                 = 0x1410000000030201,
         CURVE_DATA_Y2_VALUE                 = 0x1410000000030301,
         CURVE_DATA_Y3_VALUE                 = 0x1410000000030401,
+        CURVE_DATA_CURVES                   = 0x1410000000030509,
     }
 
     [Flags]

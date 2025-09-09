@@ -20,7 +20,7 @@ namespace FTN.Common
         constantYValue,
         formula,
         rampYValue,
-        strightYLineValues,
+        straightYLineValues,
     }
 
     public enum UnitMultiplier : short

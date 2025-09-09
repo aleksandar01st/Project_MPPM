@@ -1,17 +1,16 @@
-﻿using System;
+﻿using FTN.Common;
+using FTN.Services.NetworkModelService.DataModel.Core;
+using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Runtime.Serialization;
 using System.Text;
-using FTN.Common;
+using System.Threading.Tasks;
 
-namespace FTN.Services.NetworkModelService.DataModel.Core
+namespace FTN.Services.NetworkModelService.DataModel.Wires
 {
-	public class PowerSystemResource : IdentifiedObject
-	{
-        public PowerSystemResource(long globalId)
-            : base(globalId)
+    public class RotatingMachine : RegulatingCondEq
+    {
+        public RotatingMachine(long globalId) : base(globalId)
         {
         }
 

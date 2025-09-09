@@ -1,26 +1,33 @@
-﻿using System;
+﻿using FTN.Common;
+using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Runtime.Serialization;
 using System.Text;
-using FTN.Common;
+using System.Threading.Tasks;
 
 namespace FTN.Services.NetworkModelService.DataModel.Core
 {
-	public class PowerSystemResource : IdentifiedObject
-	{
-        public PowerSystemResource(long globalId)
-            : base(globalId)
+    public class Terminal : IdentifiedObject
+    {
+        private long conductingEquipment = 0;
+
+        public Terminal(long globalId) : base(globalId)
         {
+        }
+
+        public long ConductingEquipment
+        {
+            get { return conductingEquipment; }
+            set { conductingEquipment = value; }
         }
 
         public override bool Equals(object obj)
         {
             if (base.Equals(obj))
             {
-                PowerSystemResource x = (PowerSystemResource)obj;
-                return true;
+                Terminal x = (Terminal)obj;
+
+                return (x.conductingEquipment == this.conductingEquipment);
             }
             else
             {
@@ -39,17 +46,24 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         {
             switch (property)
             {
+                case ModelCode.TERMINAL_COND_EQ:
+                    return true;
+
                 default:
                     return base.HasProperty(property);
             }
         }
 
-        public override void GetProperty(Property property)
+        public override void GetProperty(Property prop)
         {
-            switch (property.Id)
+            switch (prop.Id)
             {
+                case ModelCode.TERMINAL_COND_EQ:
+                    prop.SetValue(conductingEquipment);
+                    break;
+
                 default:
-                    base.GetProperty(property);
+                    base.GetProperty(prop);
                     break;
             }
         }
@@ -58,6 +72,10 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         {
             switch (property.Id)
             {
+                case ModelCode.TERMINAL_COND_EQ:
+                    conductingEquipment = property.AsReference();
+                    break;
+
                 default:
                     base.SetProperty(property);
                     break;
@@ -70,14 +88,14 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 
         public override void GetReferences(Dictionary<ModelCode, List<long>> references, TypeOfReference refType)
         {
-            if ((refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
+            if (conductingEquipment != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
             {
-
+                references[ModelCode.TERMINAL_COND_EQ] = new List<long>() { conductingEquipment };
             }
 
             base.GetReferences(references, refType);
         }
 
-        #endregion IReference implementation		
+        #endregion IReference implementation
     }
 }

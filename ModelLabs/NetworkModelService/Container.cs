@@ -11,6 +11,7 @@ using FTN.Common;
 using FTN.Services.NetworkModelService.DataModel.Core;
 using FTN.Services.NetworkModelService.DataModel.Wires;
 using FTN.Services.NetworkModelService.DataModel;
+using FTN.Services.NetworkModelService.DataModel.Meas;
 
 
 namespace FTN.Services.NetworkModelService
@@ -122,21 +123,24 @@ namespace FTN.Services.NetworkModelService
 			IdentifiedObject io = null;			
 			switch ((DMSType)type)
 			{
-				case DMSType.BASEVOLTAGE:
-					io = new BaseVoltage(globalId);
+				case DMSType.CONTROL:
+					io = new Control(globalId);
 					break;
 
-				case DMSType.LOCATION:
-					io = new Location(globalId);
+				case DMSType.CURVE_DATA:
+					io = new CurveData(globalId);
 					break;
-				case DMSType.POWERTR:
-					io = new PowerTransformer(globalId);
+				case DMSType.REACTIVE_CAPABILITY_CURVE:
+					io = new ReactiveCapabilityCurve(globalId);
 					break;
-				case DMSType.POWERTRWINDING:
-					io = new TransformerWinding(globalId);
+				case DMSType.SYNCHRONOUS_MACHINE:
+					io = new SynchronousMachine(globalId);
 					break;
-				case DMSType.WINDINGTEST:
-					io = new WindingTest(globalId);
+				case DMSType.TAP_CHANGER_CONTROL:
+					io = new TapChangerControl(globalId);
+					break;			
+				case DMSType.TERMINAL:
+					io = new Terminal(globalId);
 					break;			
 
 				default:					

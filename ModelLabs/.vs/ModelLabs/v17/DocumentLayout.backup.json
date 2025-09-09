@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\cimadapter\\importer\\projectimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\projectimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\cimadapter\\importer\\projectconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\projectconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +43,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProjectImporter.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\CIMAdapter\\Importer\\ProjectImporter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\ProjectImporter.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\CIMAdapter\\Importer\\ProjectImporter.cs",
+              "RelativeToolTip": "CIMAdapter\\Importer\\ProjectImporter.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T22:15:19.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelResourcesDesc.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\Common\\ModelResourcesDesc.cs",
+              "RelativeDocumentMoniker": "Common\\ModelResourcesDesc.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\Common\\ModelResourcesDesc.cs",
+              "RelativeToolTip": "Common\\ModelResourcesDesc.cs",
+              "ViewState": "AgIAAF4DAAAAAAAAAAAAAHMDAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T21:49:01.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnumDescs.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\Common\\EnumDescs.cs",
+              "RelativeDocumentMoniker": "Common\\EnumDescs.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\Common\\EnumDescs.cs",
+              "RelativeToolTip": "Common\\EnumDescs.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T21:44:50.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ModelDefines.cs",
               "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\Common\\ModelDefines.cs",
               "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
               "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\Common\\ModelDefines.cs",
               "RelativeToolTip": "Common\\ModelDefines.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAnwFAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T20:17:27.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\Common\\Enums.cs",
               "RelativeDocumentMoniker": "Common\\Enums.cs",
               "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\Common\\Enums.cs",
               "RelativeToolTip": "Common\\Enums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T20:17:23Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjectImporter.cs",
-              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\CIMAdapter\\Importer\\ProjectImporter.cs",
-              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\ProjectImporter.cs",
-              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\CIMAdapter\\Importer\\ProjectImporter.cs",
-              "RelativeToolTip": "CIMAdapter\\Importer\\ProjectImporter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T16:05:47.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProjectConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\CIMAdapter\\Importer\\ProjectConverter.cs",
-              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\ProjectConverter.cs",
-              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\CIMAdapter\\Importer\\ProjectConverter.cs",
-              "RelativeToolTip": "CIMAdapter\\Importer\\ProjectConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T16:05:43.856Z"
             }
           ]
         }
