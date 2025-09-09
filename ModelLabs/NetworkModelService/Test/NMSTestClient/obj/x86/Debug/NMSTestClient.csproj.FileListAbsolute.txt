@@ -34,3 +34,11 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\bin\NMSTestClient.pdb
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.exe
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.pdb
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.csproj.AssemblyReference.cache
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.exe
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.pdb
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\NMSTestClient.exe.config
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\NMSTestClient.exe
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\NMSTestClient.pdb
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestC.9FB1C9DD.Up2Date

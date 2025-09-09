@@ -138,7 +138,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 				importHelper.DefineIDMapping(cimControls.ID, gid);
 
 				////populate ResourceDescription
-				ProjectConverter.PopulateControlProperties(cimControls, rd);
+				ProjectConverter.PopulateControlProperties(cimControls, rd, importHelper, report);
 			}
 			return rd;
 		}
@@ -177,7 +177,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 				importHelper.DefineIDMapping(cimCurveData.ID, gid);
 
 				////populate ResourceDescription
-				ProjectConverter.PopulateCurveDataProperties(cimCurveData, rd);
+				ProjectConverter.PopulateCurveDataProperties(cimCurveData, rd, importHelper, report);
 			}
 			return rd;
 		}
@@ -255,7 +255,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 				importHelper.DefineIDMapping(cimSynchronousMachine.ID, gid);
 
 				////populate ResourceDescription
-				ProjectConverter.PopulateSynchronousMachineProperties(cimSynchronousMachine, rd);
+				ProjectConverter.PopulateSynchronousMachineProperties(cimSynchronousMachine, rd, importHelper, report);
 			}
 			return rd;
 		}

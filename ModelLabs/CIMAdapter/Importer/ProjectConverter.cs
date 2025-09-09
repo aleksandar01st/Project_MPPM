@@ -51,28 +51,47 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
             }
 		}
 
-		public static void PopulateRegulatingCondEqProperties(FTN.RegulatingCondEq cimRegulatingCondEq, ResourceDescription rd)
+		public static void PopulateRegulatingCondEqProperties(FTN.RegulatingCondEq cimRegulatingCondEq, ResourceDescription rd, ImportHelper importHelper, TransformAndLoadReport report)
 		{
 			if ((cimRegulatingCondEq != null) && (rd != null))
 			{
 				ProjectConverter.PopulateConductingEquipmentProperties(cimRegulatingCondEq, rd);
 			}
-			/////////////////////////
-		}
+            if (cimRegulatingCondEq.RegulatingControlHasValue)
+            {
+                long gid = importHelper.GetMappedGID(cimRegulatingCondEq.RegulatingControl.ID);
+                if (gid < 0)
+                {
+                    report.Report.Append("WARNING: Convert ").Append(cimRegulatingCondEq.GetType().ToString()).Append(" rdfID = \"").Append(cimRegulatingCondEq.ID);
+                    report.Report.Append("\" - Failed to set reference to RegulatingControl: rdfID \"").Append(cimRegulatingCondEq.RegulatingControl.ID).AppendLine(" \" is not mapped to GID!");
+                }
+                rd.AddProperty(new Property(ModelCode.REGULATING_COND_EQ_REG_CTRL, gid));
+            }
+        }
 
-        public static void PopulateRotatingMachineProperties(FTN.RotatingMachine cimRotatingMachine, ResourceDescription rd)
+        public static void PopulateRotatingMachineProperties(FTN.RotatingMachine cimRotatingMachine, ResourceDescription rd, ImportHelper importHelper, TransformAndLoadReport report)
 		{
 			if ((cimRotatingMachine != null) && (rd != null))
 			{
-				ProjectConverter.PopulateRegulatingCondEqProperties(cimRotatingMachine, rd);
+				ProjectConverter.PopulateRegulatingCondEqProperties(cimRotatingMachine, rd, importHelper, report);
 			}
 		}
 
-		public static void PopulateSynchronousMachineProperties(FTN.SynchronousMachine cimSynchronousMachine, ResourceDescription rd)
+		public static void PopulateSynchronousMachineProperties(FTN.SynchronousMachine cimSynchronousMachine, ResourceDescription rd, ImportHelper importHelper, TransformAndLoadReport report)
 		{
 			if ((cimSynchronousMachine != null) && (rd != null))
 			{
-				ProjectConverter.PopulateRotatingMachineProperties(cimSynchronousMachine, rd);
+				ProjectConverter.PopulateRotatingMachineProperties(cimSynchronousMachine, rd, importHelper, report);
+            }
+            if (cimSynchronousMachine.ReactiveCapabilityCurvesHasValue)
+            {
+                long gid = importHelper.GetMappedGID(cimSynchronousMachine.ReactiveCapabilityCurves.ID);
+                if (gid < 0)
+                {
+                    report.Report.Append("WARNING: Convert ").Append(cimSynchronousMachine.GetType().ToString()).Append(" rdfID = \"").Append(cimSynchronousMachine.ID);
+                    report.Report.Append("\" - Failed to set reference to ReactiveCapabilityCurves: rdfID \"").Append(cimSynchronousMachine.ReactiveCapabilityCurves.ID).AppendLine(" \" is not mapped to GID!");
+                }
+                rd.AddProperty(new Property(ModelCode.SYNCHRONOUS_MACHINE_RCC, gid));
             }
         }
 
@@ -102,18 +121,6 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 				{
 					rd.AddProperty(new Property(ModelCode.REGULATING_CONTROL_M_PHASE, (short)GetDMSPhaseCode(cimRegulatingControl.MonitoredPhase)));
 				}
-
-
-				//if (cimTransformerWinding.PowerTransformerHasValue)
-				//{
-				//	long gid = importHelper.GetMappedGID(cimTransformerWinding.PowerTransformer.ID);
-				//	if (gid < 0)
-				//	{
-				//		report.Report.Append("WARNING: Convert ").Append(cimTransformerWinding.GetType().ToString()).Append(" rdfID = \"").Append(cimTransformerWinding.ID);
-				//		report.Report.Append("\" - Failed to set reference to PowerTransformer: rdfID \"").Append(cimTransformerWinding.PowerTransformer.ID).AppendLine(" \" is not mapped to GID!");
-				//	}
-				//	rd.AddProperty(new Property(ModelCode.POWERTRWINDING_POWERTRW, gid));
-				//}
 			}
 		}
 
@@ -147,17 +154,6 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 				{
 					rd.AddProperty(new Property(ModelCode.TAP_CHANGER_CONTROL_RLDX, cimTapChangerControl.ReverseLineDropX));
 				}
-
-				//if (cimWindingTest.From_TransformerWindingHasValue)
-				//{
-				//	long gid = importHelper.GetMappedGID(cimWindingTest.From_TransformerWinding.ID);
-				//	if (gid < 0)
-				//	{
-				//		report.Report.Append("WARNING: Convert ").Append(cimWindingTest.GetType().ToString()).Append(" rdfID = \"").Append(cimWindingTest.ID);
-				//		report.Report.Append("\" - Failed to set reference to TransformerWinding: rdfID \"").Append(cimWindingTest.From_TransformerWinding.ID).AppendLine(" \" is not mapped to GID!");
-				//	}
-				//	rd.AddProperty(new Property(ModelCode.WINDINGTEST_POWERTRWINDING, gid));
-				//}
 			}
 		}
 
@@ -167,24 +163,33 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
             {
                 ProjectConverter.PopulateIdentifiedObjectProperties(cimTerminal, rd);
             }
-
-            //if (cimTerminal.ConductingEquipmentHasValue)
-            //{
-            //    long gid = importHelper.GetMappedGID(cimTerminal.ConductingEquipment.ID);
-            //    if (gid < 0)
-            //    {
-            //        report.Report.Append("WARNING: Convert ").Append(cimTerminal.GetType().ToString()).Append(" rdfID = \"").Append(cimTerminal.ID);
-            //        report.Report.Append("\" - Failed to set reference to ConductingEquipment: rdfID \"").Append(cimTerminal.ConductingEquipment.ID).AppendLine(" \" is not mapped to GID!");
-            //    }
-            //    rd.AddProperty(new Property(ModelCode.TERMINAL_CONDEQUIPMENT, gid));
-            //}
+            if (cimTerminal.ConductingEquipmentHasValue)
+            {
+                long gid = importHelper.GetMappedGID(cimTerminal.ConductingEquipment.ID);
+                if (gid < 0)
+                {
+                    report.Report.Append("WARNING: Convert ").Append(cimTerminal.GetType().ToString()).Append(" rdfID = \"").Append(cimTerminal.ID);
+                    report.Report.Append("\" - Failed to set reference to ConductingEquipment: rdfID \"").Append(cimTerminal.ConductingEquipment.ID).AppendLine(" \" is not mapped to GID!");
+                }
+                rd.AddProperty(new Property(ModelCode.TERMINAL_COND_EQ, gid));
+            }
         }
 
-        public static void PopulateControlProperties(FTN.Control cimControl, ResourceDescription rd)
+        public static void PopulateControlProperties(FTN.Control cimControl, ResourceDescription rd, ImportHelper importHelper, TransformAndLoadReport report)
         {
             if ((cimControl != null) && (rd != null))
             {
                 ProjectConverter.PopulateIdentifiedObjectProperties(cimControl, rd);
+            }
+            if (cimControl.RegulatingCondEqHasValue)
+            {
+                long gid = importHelper.GetMappedGID(cimControl.RegulatingCondEq.ID);
+                if (gid < 0)
+                {
+                    report.Report.Append("WARNING: Convert ").Append(cimControl.GetType().ToString()).Append(" rdfID = \"").Append(cimControl.ID);
+                    report.Report.Append("\" - Failed to set reference to RegulatingCondEq: rdfID \"").Append(cimControl.RegulatingCondEq.ID).AppendLine(" \" is not mapped to GID!");
+                }
+                rd.AddProperty(new Property(ModelCode.CONTROL_REG_COND_EQ, gid));
             }
         }
 
@@ -241,11 +246,21 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
             }
         }
 
-        public static void PopulateCurveDataProperties(FTN.CurveData cimCurveData, ResourceDescription rd)
+        public static void PopulateCurveDataProperties(FTN.CurveData cimCurveData, ResourceDescription rd, ImportHelper importHelper, TransformAndLoadReport report)
         {
             if ((cimCurveData != null) && (rd != null))
             {
                 ProjectConverter.PopulateIdentifiedObjectProperties(cimCurveData, rd);
+            }
+            if (cimCurveData.CurveHasValue)
+            {
+                long gid = importHelper.GetMappedGID(cimCurveData.Curve.ID);
+                if (gid < 0)
+                {
+                    report.Report.Append("WARNING: Convert ").Append(cimCurveData.GetType().ToString()).Append(" rdfID = \"").Append(cimCurveData.ID);
+                    report.Report.Append("\" - Failed to set reference to Curve: rdfID \"").Append(cimCurveData.Curve.ID).AppendLine(" \" is not mapped to GID!");
+                }
+                rd.AddProperty(new Property(ModelCode.CURVE_DATA_CURVES, gid));
             }
         }
 

@@ -16,6 +16,13 @@ namespace FTN {
     /// Multi-purpose data points for defining a curve.  The use of this generic class is discouraged if a more specific class  can be used to specify the x and y axis values along with their specific data types.
     public class CurveData : IdentifiedObject {
         
+        /// The curve of  this curve data point.
+        private Curve cim_Curve;
+        
+        private const bool isCurveMandatory = true;
+        
+        private const string _CurvePrefix = "cim";
+        
         /// The data value of the X-axis variable,  depending on the X-axis units.
         private System.Single? cim_xvalue;
         
@@ -43,6 +50,33 @@ namespace FTN {
         private const bool isY3valueMandatory = false;
         
         private const string _y3valuePrefix = "cim";
+        
+        public virtual Curve Curve {
+            get {
+                return this.cim_Curve;
+            }
+            set {
+                this.cim_Curve = value;
+            }
+        }
+        
+        public virtual bool CurveHasValue {
+            get {
+                return this.cim_Curve != null;
+            }
+        }
+        
+        public static bool IsCurveMandatory {
+            get {
+                return isCurveMandatory;
+            }
+        }
+        
+        public static string CurvePrefix {
+            get {
+                return _CurvePrefix;
+            }
+        }
         
         public virtual float Xvalue {
             get {

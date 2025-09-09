@@ -15,5 +15,39 @@ namespace FTN {
     
     /// An electromechanical device that operates with shaft rotating synchronously with the network. It is a single machine operating either as a generator or synchronous condenser or pump.
     public class SynchronousMachine : RotatingMachine {
+        
+        /// All available reactive capability curves for this synchronous machine.
+        private ReactiveCapabilityCurve cim_ReactiveCapabilityCurves;
+        
+        private const bool isReactiveCapabilityCurvesMandatory = false;
+        
+        private const string _ReactiveCapabilityCurvesPrefix = "cim";
+        
+        public virtual ReactiveCapabilityCurve ReactiveCapabilityCurves {
+            get {
+                return this.cim_ReactiveCapabilityCurves;
+            }
+            set {
+                this.cim_ReactiveCapabilityCurves = value;
+            }
+        }
+        
+        public virtual bool ReactiveCapabilityCurvesHasValue {
+            get {
+                return this.cim_ReactiveCapabilityCurves != null;
+            }
+        }
+        
+        public static bool IsReactiveCapabilityCurvesMandatory {
+            get {
+                return isReactiveCapabilityCurvesMandatory;
+            }
+        }
+        
+        public static string ReactiveCapabilityCurvesPrefix {
+            get {
+                return _ReactiveCapabilityCurvesPrefix;
+            }
+        }
     }
 }

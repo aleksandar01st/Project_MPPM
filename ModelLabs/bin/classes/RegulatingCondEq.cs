@@ -24,6 +24,13 @@ namespace FTN {
         
         private const string _ControlsPrefix = "cim";
         
+        /// The regulating control scheme in which this equipment participates.
+        private RegulatingControl cim_RegulatingControl;
+        
+        private const bool isRegulatingControlMandatory = false;
+        
+        private const string _RegulatingControlPrefix = "cim";
+        
         public virtual List<Control> Controls {
             get {
                 return this.cim_Controls;
@@ -48,6 +55,33 @@ namespace FTN {
         public static string ControlsPrefix {
             get {
                 return _ControlsPrefix;
+            }
+        }
+        
+        public virtual RegulatingControl RegulatingControl {
+            get {
+                return this.cim_RegulatingControl;
+            }
+            set {
+                this.cim_RegulatingControl = value;
+            }
+        }
+        
+        public virtual bool RegulatingControlHasValue {
+            get {
+                return this.cim_RegulatingControl != null;
+            }
+        }
+        
+        public static bool IsRegulatingControlMandatory {
+            get {
+                return isRegulatingControlMandatory;
+            }
+        }
+        
+        public static string RegulatingControlPrefix {
+            get {
+                return _RegulatingControlPrefix;
             }
         }
     }

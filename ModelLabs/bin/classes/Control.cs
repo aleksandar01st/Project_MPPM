@@ -15,5 +15,39 @@ namespace FTN {
     
     /// Control is used for supervisory/device control. It represents control outputs that are used to change the state in a process, e.g. close or open breaker, a set point value or a raise lower command.
     public class Control : IdentifiedObject {
+        
+        /// Regulating device governed by this control output.
+        private RegulatingCondEq cim_RegulatingCondEq;
+        
+        private const bool isRegulatingCondEqMandatory = false;
+        
+        private const string _RegulatingCondEqPrefix = "cim";
+        
+        public virtual RegulatingCondEq RegulatingCondEq {
+            get {
+                return this.cim_RegulatingCondEq;
+            }
+            set {
+                this.cim_RegulatingCondEq = value;
+            }
+        }
+        
+        public virtual bool RegulatingCondEqHasValue {
+            get {
+                return this.cim_RegulatingCondEq != null;
+            }
+        }
+        
+        public static bool IsRegulatingCondEqMandatory {
+            get {
+                return isRegulatingCondEqMandatory;
+            }
+        }
+        
+        public static string RegulatingCondEqPrefix {
+            get {
+                return _RegulatingCondEqPrefix;
+            }
+        }
     }
 }

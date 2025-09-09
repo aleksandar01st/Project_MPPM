@@ -15,5 +15,39 @@ namespace FTN {
     
     /// An electrical connection point to a piece of conducting equipment. Terminals are connected at physical connection points called connectivity nodes.
     public class Terminal : IdentifiedObject {
+        
+        /// The conducting equipment of the terminal.  Conducting equipment have  terminals that may be connected to other conducting equipment terminals via connectivity nodes or topological nodes.
+        private ConductingEquipment cim_ConductingEquipment;
+        
+        private const bool isConductingEquipmentMandatory = true;
+        
+        private const string _ConductingEquipmentPrefix = "cim";
+        
+        public virtual ConductingEquipment ConductingEquipment {
+            get {
+                return this.cim_ConductingEquipment;
+            }
+            set {
+                this.cim_ConductingEquipment = value;
+            }
+        }
+        
+        public virtual bool ConductingEquipmentHasValue {
+            get {
+                return this.cim_ConductingEquipment != null;
+            }
+        }
+        
+        public static bool IsConductingEquipmentMandatory {
+            get {
+                return isConductingEquipmentMandatory;
+            }
+        }
+        
+        public static string ConductingEquipmentPrefix {
+            get {
+                return _ConductingEquipmentPrefix;
+            }
+        }
     }
 }

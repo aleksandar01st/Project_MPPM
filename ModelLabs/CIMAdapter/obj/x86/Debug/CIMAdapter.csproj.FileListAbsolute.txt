@@ -17,3 +17,6 @@ C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelL
 C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMAdapter\obj\x86\Debug\CIMAdapter.csproj.CoreCompileInputs.cache
 C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMAdapter\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMAdapter.dll
 C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMAdapter\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMAdapter.pdb
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMAdapter.dll
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMAdapter.pdb
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\CIMAdapter\obj\x86\Debug\CIMAdapter.csproj.Up2Date
