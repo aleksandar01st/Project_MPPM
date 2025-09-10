@@ -1,0 +1,88 @@
+9/10/2025 7:04:34 PM : Getting extent values for all DMS types started.
+9/10/2025 7:04:39 PM : Getting extent values for all DMS types failed for type CONTROL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0605729. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+9/10/2025 7:08:00 PM : Getting extent values for all DMS types started.
+9/10/2025 7:08:32 PM : Getting extent values for all DMS types started.
+9/10/2025 7:08:37 PM : Getting extent values for all DMS types failed for type CONTROL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0833350. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+9/10/2025 7:09:18 PM : Getting extent values for all DMS types started.
+9/10/2025 7:09:24 PM : Getting extent values for all DMS types failed for type CONTROL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0762798. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+9/10/2025 7:13:28 PM : Getting extent values for all DMS types started.
+9/10/2025 7:13:33 PM : Getting extent values for all DMS types failed for type CONTROL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.1103875. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+9/10/2025 8:06:42 PM : Getting extent values for all DMS types started.
+9/10/2025 8:06:47 PM : Getting extent values for all DMS types failed for type CONTROL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0798916. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+9/10/2025 8:08:36 PM : Getting extent values for all DMS types started.
+9/10/2025 8:08:37 PM : Number of CONTROL in model 0.
+9/10/2025 8:08:37 PM : Number of CURVE_DATA in model 0.
+9/10/2025 8:08:37 PM : Number of REACTIVE_CAPABILITY_CURVE in model 0.
+9/10/2025 8:08:37 PM : Number of SYNCHRONOUS_MACHINE in model 0.
+9/10/2025 8:08:37 PM : Number of TAP_CHANGER_CONTROL in model 0.
+9/10/2025 8:08:37 PM : Number of TERMINAL in model 0.
+9/10/2025 8:08:37 PM : Getting extent values for all DMS types successfully ended.
+9/10/2025 8:08:43 PM : Getting extent values for all DMS types started.
+9/10/2025 8:08:43 PM : Number of CONTROL in model 0.
+9/10/2025 8:08:43 PM : Number of CURVE_DATA in model 0.
+9/10/2025 8:08:43 PM : Number of REACTIVE_CAPABILITY_CURVE in model 0.
+9/10/2025 8:08:43 PM : Number of SYNCHRONOUS_MACHINE in model 0.
+9/10/2025 8:08:43 PM : Number of TAP_CHANGER_CONTROL in model 0.
+9/10/2025 8:08:43 PM : Number of TERMINAL in model 0.
+9/10/2025 8:08:44 PM : Getting extent values for all DMS types successfully ended.
+9/10/2025 8:09:46 PM : Getting extent values for all DMS types started.
+9/10/2025 8:09:47 PM : Number of CONTROL in model 0.
+9/10/2025 8:09:47 PM : Number of CURVE_DATA in model 0.
+9/10/2025 8:09:47 PM : Number of REACTIVE_CAPABILITY_CURVE in model 0.
+9/10/2025 8:09:47 PM : Number of SYNCHRONOUS_MACHINE in model 0.
+9/10/2025 8:09:47 PM : Number of TAP_CHANGER_CONTROL in model 0.
+9/10/2025 8:09:47 PM : Number of TERMINAL in model 0.
+9/10/2025 8:09:47 PM : Getting extent values for all DMS types successfully ended.
+9/10/2025 8:10:02 PM : Getting extent values for all DMS types started.
+9/10/2025 8:10:02 PM : Number of CONTROL in model 0.
+9/10/2025 8:10:02 PM : Number of CURVE_DATA in model 0.
+9/10/2025 8:10:02 PM : Number of REACTIVE_CAPABILITY_CURVE in model 0.
+9/10/2025 8:10:02 PM : Number of SYNCHRONOUS_MACHINE in model 0.
+9/10/2025 8:10:02 PM : Number of TAP_CHANGER_CONTROL in model 0.
+9/10/2025 8:10:02 PM : Number of TERMINAL in model 0.
+9/10/2025 8:10:02 PM : Getting extent values for all DMS types successfully ended.
+9/10/2025 8:10:19 PM : Getting extent values for all DMS types started.
+9/10/2025 8:10:20 PM : Number of CONTROL in model 0.
+9/10/2025 8:10:20 PM : Number of CURVE_DATA in model 0.
+9/10/2025 8:10:20 PM : Number of REACTIVE_CAPABILITY_CURVE in model 0.
+9/10/2025 8:10:20 PM : Number of SYNCHRONOUS_MACHINE in model 0.
+9/10/2025 8:10:20 PM : Number of TAP_CHANGER_CONTROL in model 0.
+9/10/2025 8:10:20 PM : Number of TERMINAL in model 0.
+9/10/2025 8:10:20 PM : Getting extent values for all DMS types successfully ended.
+9/10/2025 8:10:38 PM : Getting extent values for all DMS types started.
+9/10/2025 8:10:38 PM : Number of CONTROL in model 0.
+9/10/2025 8:10:38 PM : Number of CURVE_DATA in model 0.
+9/10/2025 8:10:38 PM : Number of REACTIVE_CAPABILITY_CURVE in model 0.
+9/10/2025 8:10:38 PM : Number of SYNCHRONOUS_MACHINE in model 0.
+9/10/2025 8:10:38 PM : Number of TAP_CHANGER_CONTROL in model 0.
+9/10/2025 8:10:38 PM : Number of TERMINAL in model 0.
+9/10/2025 8:10:38 PM : Getting extent values for all DMS types successfully ended.
+9/10/2025 8:10:44 PM : Getting extent values for all DMS types started.
+9/10/2025 8:10:44 PM : Number of CONTROL in model 0.
+9/10/2025 8:10:44 PM : Number of CURVE_DATA in model 0.
+9/10/2025 8:10:44 PM : Number of REACTIVE_CAPABILITY_CURVE in model 0.
+9/10/2025 8:10:44 PM : Number of SYNCHRONOUS_MACHINE in model 0.
+9/10/2025 8:10:44 PM : Number of TAP_CHANGER_CONTROL in model 0.
+9/10/2025 8:10:44 PM : Number of TERMINAL in model 0.
+9/10/2025 8:10:44 PM : Getting extent values for all DMS types successfully ended.
+9/10/2025 8:10:52 PM : Getting extent values for all DMS types started.
+9/10/2025 8:10:52 PM : Number of CONTROL in model 0.
+9/10/2025 8:10:52 PM : Number of CURVE_DATA in model 0.
+9/10/2025 8:10:52 PM : Number of REACTIVE_CAPABILITY_CURVE in model 0.
+9/10/2025 8:10:52 PM : Number of SYNCHRONOUS_MACHINE in model 0.
+9/10/2025 8:10:52 PM : Number of TAP_CHANGER_CONTROL in model 0.
+9/10/2025 8:10:52 PM : Number of TERMINAL in model 0.
+9/10/2025 8:10:52 PM : Getting extent values for all DMS types successfully ended.
+9/10/2025 8:10:56 PM : Getting extent values for all DMS types started.
+9/10/2025 8:10:56 PM : Number of CONTROL in model 0.
+9/10/2025 8:10:56 PM : Number of CURVE_DATA in model 0.
+9/10/2025 8:10:56 PM : Number of REACTIVE_CAPABILITY_CURVE in model 0.
+9/10/2025 8:10:56 PM : Number of SYNCHRONOUS_MACHINE in model 0.
+9/10/2025 8:10:56 PM : Number of TAP_CHANGER_CONTROL in model 0.
+9/10/2025 8:10:56 PM : Number of TERMINAL in model 0.
+9/10/2025 8:10:56 PM : Getting extent values for all DMS types successfully ended.

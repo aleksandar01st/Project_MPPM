@@ -1,0 +1,54 @@
+9/10/2025 7:07:49 PM : Starting Network Model Serivice...
+9/10/2025 8:01:02 PM : Starting Network Model Serivice...
+9/10/2025 8:01:03 PM : The WCF service GenericDataAccess is ready.
+9/10/2025 8:01:03 PM : Endpoints:
+9/10/2025 8:01:03 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+9/10/2025 8:01:03 PM : Connection string: ../NetworkModelData.data
+9/10/2025 8:01:03 PM : Trace level: Info
+9/10/2025 8:01:03 PM : The Network Model Service is started.
+9/10/2025 8:01:03 PM : Press <Enter> to stop the service.
+9/10/2025 8:01:53 PM : Starting Network Model Serivice...
+9/10/2025 8:01:55 PM : The WCF service GenericDataAccess is ready.
+9/10/2025 8:01:55 PM : Endpoints:
+9/10/2025 8:01:55 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+9/10/2025 8:01:55 PM : Connection string: ../NetworkModelData.data
+9/10/2025 8:01:55 PM : Trace level: Info
+9/10/2025 8:01:55 PM : The Network Model Service is started.
+9/10/2025 8:01:55 PM : Press <Enter> to stop the service.
+9/10/2025 8:02:28 PM : Starting Network Model Serivice...
+9/10/2025 8:02:29 PM : The WCF service GenericDataAccess is ready.
+9/10/2025 8:02:29 PM : Endpoints:
+9/10/2025 8:02:29 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+9/10/2025 8:02:29 PM : Connection string: ../NetworkModelData.data
+9/10/2025 8:02:29 PM : Trace level: Info
+9/10/2025 8:02:29 PM : The Network Model Service is started.
+9/10/2025 8:02:29 PM : Press <Enter> to stop the service.
+9/10/2025 8:03:57 PM : Applying  delta to network model.
+9/10/2025 8:03:57 PM : Failed to sort delta operations because there are some insert operations (count = 1) whose type (e.g 2) is not specified in the given list of types.
+9/10/2025 8:03:57 PM : Applying delta to network model failed. Invalid delta. Some insert operations (count = 1) whose type (e.g 2) is not correct..
+9/10/2025 8:04:07 PM : Getting values for resource with ID = 0x00000001ffffffff failed. Failed to get values for entity with GID = 0x00000001ffffffff. Entity  (GID = 0x00000001ffffffff) does not exist.
+9/10/2025 8:06:47 PM : Starting Network Model Serivice...
+9/10/2025 8:08:35 PM : Starting Network Model Serivice...
+9/10/2025 8:08:36 PM : The WCF service GenericDataAccess is ready.
+9/10/2025 8:08:36 PM : Endpoints:
+9/10/2025 8:08:36 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+9/10/2025 8:08:36 PM : Connection string: ../NetworkModelData.data
+9/10/2025 8:08:36 PM : Trace level: Info
+9/10/2025 8:08:37 PM : The Network Model Service is started.
+9/10/2025 8:08:37 PM : Press <Enter> to stop the service.
+9/10/2025 8:09:45 PM : Starting Network Model Serivice...
+9/10/2025 8:09:46 PM : The WCF service GenericDataAccess is ready.
+9/10/2025 8:09:46 PM : Endpoints:
+9/10/2025 8:09:46 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+9/10/2025 8:09:46 PM : Connection string: ../NetworkModelData.data
+9/10/2025 8:09:46 PM : Trace level: Info
+9/10/2025 8:09:46 PM : The Network Model Service is started.
+9/10/2025 8:09:46 PM : Press <Enter> to stop the service.
+9/10/2025 8:10:17 PM : Starting Network Model Serivice...
+9/10/2025 8:10:18 PM : The WCF service GenericDataAccess is ready.
+9/10/2025 8:10:18 PM : Endpoints:
+9/10/2025 8:10:18 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+9/10/2025 8:10:18 PM : Connection string: ../NetworkModelData.data
+9/10/2025 8:10:18 PM : Trace level: Info
+9/10/2025 8:10:18 PM : The Network Model Service is started.
+9/10/2025 8:10:18 PM : Press <Enter> to stop the service.

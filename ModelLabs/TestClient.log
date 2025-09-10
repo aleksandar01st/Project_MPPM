@@ -9,3 +9,54 @@
 9/9/2025 7:10:00 PM : Getting values method for entered id = 2 failed.
 	Failed to get model type code for DMS type: 0. Invalid DMS type
 9/9/2025 7:10:05 PM : Network Model Service Test Client stopped.
+9/10/2025 5:16:56 PM : Network Model Service Test Client is up and running...
+9/10/2025 5:16:56 PM : Result directory: ../Results
+9/10/2025 5:25:06 PM : Network Model Service Test Client is up and running...
+9/10/2025 5:25:06 PM : Result directory: ../Results
+9/10/2025 5:25:15 PM : Entering entity id failed. Please use hex (0x) or decimal format.
+9/10/2025 5:25:15 PM : GetValues failed. Input string was not in a correct format.
+9/10/2025 7:07:49 PM : Network Model Service Test Client is up and running...
+9/10/2025 7:07:49 PM : Result directory: ../Results
+9/10/2025 7:13:54 PM : Network Model Service Test Client is up and running...
+9/10/2025 7:13:54 PM : Result directory: ../Results
+9/10/2025 7:14:24 PM : Getting extent values method started.
+9/10/2025 7:14:48 PM : Network Model Service Test Client is up and running...
+9/10/2025 7:14:48 PM : Result directory: ../Results
+9/10/2025 7:14:54 PM : Getting extent values method started.
+9/10/2025 7:14:59 PM : Getting extent values method failed for CONTROL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0962177. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+9/10/2025 7:19:41 PM : Network Model Service Test Client is up and running...
+9/10/2025 7:19:41 PM : Result directory: ../Results
+9/10/2025 7:38:03 PM : Network Model Service Test Client is up and running...
+9/10/2025 7:38:03 PM : Result directory: ../Results
+9/10/2025 7:38:08 PM : Getting extent values method started.
+9/10/2025 7:38:12 PM : Getting extent values method failed for TERMINAL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0625179. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+9/10/2025 7:44:30 PM : Network Model Service Test Client is up and running...
+9/10/2025 7:44:30 PM : Result directory: ../Results
+9/10/2025 7:44:37 PM : Getting extent values method started.
+9/10/2025 7:44:41 PM : Getting extent values method failed for TERMINAL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0936879. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+9/10/2025 8:02:06 PM : Network Model Service Test Client is up and running...
+9/10/2025 8:02:06 PM : Result directory: ../Results
+9/10/2025 8:02:12 PM : Getting extent values method started.
+9/10/2025 8:02:13 PM : Getting extent values method successfully finished.
+9/10/2025 8:02:23 PM : Network Model Service Test Client is up and running...
+9/10/2025 8:02:23 PM : Result directory: ../Results
+9/10/2025 8:02:37 PM : Getting extent values method started.
+9/10/2025 8:02:37 PM : Getting extent values method successfully finished.
+9/10/2025 8:03:53 PM : Entering entity id failed. Please use hex (0x) or decimal format.
+9/10/2025 8:03:53 PM : GetRelatedValues failed. Input string was not in a correct format.
+9/10/2025 8:03:57 PM : Apply update method started.
+9/10/2025 8:03:57 PM : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Invalid delta. Some insert operations (count = 1) whose type (e.g 2) is not correct..
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+
+9/10/2025 8:04:07 PM : Getting values method started.

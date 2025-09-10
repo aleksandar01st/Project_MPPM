@@ -50,3 +50,4 @@ C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelL
 C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\NetworkM.C8FE02EA.Up2Date
 C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\FTN_NetworkModelService.exe
 C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\FTN_NetworkModelService.pdb
+C:\Users\Aleksandar Stankovic\Documents\ftn\4. godina\Modeli\Project_MPPM\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\FTN_NetworkModelService.exe.config

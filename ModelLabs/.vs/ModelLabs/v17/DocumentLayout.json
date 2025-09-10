@@ -3,24 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\cimadapter\\importer\\projectconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\projectconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1095D744-4464-4F09-8726-D4D433CA5496}|NMSTestClientUI\\NMSTestClientUI.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\nmstestclientui\\getextentvalues.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095D744-4464-4F09-8726-D4D433CA5496}|NMSTestClientUI\\NMSTestClientUI.csproj|solutionrelative:nmstestclientui\\getextentvalues.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\cimadapter\\importer\\projectimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\projectimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1095D744-4464-4F09-8726-D4D433CA5496}|NMSTestClientUI\\NMSTestClientUI.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\nmstestclientui\\getrelatedvalues.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095D744-4464-4F09-8726-D4D433CA5496}|NMSTestClientUI\\NMSTestClientUI.csproj|solutionrelative:nmstestclientui\\getrelatedvalues.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aleksandar Stankovic\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\networkmodelservice\\test\\nmstestclient\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|solutionrelative:networkmodelservice\\test\\nmstestclient\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\networkmodelservice\\test\\nmstestclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|solutionrelative:networkmodelservice\\test\\nmstestclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\modeli\\project_mppm\\modellabs\\networkmodelservice\\networkmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\networkmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,66 +38,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProjectConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\CIMAdapter\\Importer\\ProjectConverter.cs",
-              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\ProjectConverter.cs",
-              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\CIMAdapter\\Importer\\ProjectConverter.cs",
-              "RelativeToolTip": "CIMAdapter\\Importer\\ProjectConverter.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAIgAAAAKAAAAAAAAAA==",
+              "Title": "GetExtentValues.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\NMSTestClientUI\\GetExtentValues.xaml.cs",
+              "RelativeDocumentMoniker": "NMSTestClientUI\\GetExtentValues.xaml.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\NMSTestClientUI\\GetExtentValues.xaml.cs",
+              "RelativeToolTip": "NMSTestClientUI\\GetExtentValues.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T20:12:05.481Z",
+              "WhenOpened": "2025-09-10T18:10:05.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProjectImporter.cs",
-              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\CIMAdapter\\Importer\\ProjectImporter.cs",
-              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\ProjectImporter.cs",
-              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\CIMAdapter\\Importer\\ProjectImporter.cs",
-              "RelativeToolTip": "CIMAdapter\\Importer\\ProjectImporter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMBAAAJAAAAAAAAAA==",
+              "Title": "GetRelatedValues.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\NMSTestClientUI\\GetRelatedValues.xaml.cs",
+              "RelativeDocumentMoniker": "NMSTestClientUI\\GetRelatedValues.xaml.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\NMSTestClientUI\\GetRelatedValues.xaml.cs",
+              "RelativeToolTip": "NMSTestClientUI\\GetRelatedValues.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T20:11:53.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\Program.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\Test\\NMSTestClient\\Program.cs",
-              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\Program.cs",
-              "RelativeToolTip": "NetworkModelService\\Test\\NMSTestClient\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T17:02:40.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\Config.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\Test\\NMSTestClient\\Config.cs",
-              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\Config.cs",
-              "RelativeToolTip": "NetworkModelService\\Test\\NMSTestClient\\Config.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T17:01:33.817Z",
+              "WhenOpened": "2025-09-10T18:08:51.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ModelDefines.cs",
-              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\Common\\ModelDefines.cs",
-              "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
-              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\Common\\ModelDefines.cs",
-              "RelativeToolTip": "Common\\ModelDefines.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFUAAAAZAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs [Read Only]",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAwAAAA5AAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T20:17:27.191Z",
+              "WhenOpened": "2025-09-10T18:00:38.353Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NetworkModelService.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\NetworkModelService\\NetworkModelService.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\NetworkModelService.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Modeli\\Project_MPPM\\ModelLabs\\NetworkModelService\\NetworkModelService.cs",
+              "RelativeToolTip": "NetworkModelService\\NetworkModelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:19:01.665Z",
               "EditorCaption": ""
             }
           ]

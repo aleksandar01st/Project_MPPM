@@ -1,0 +1,5 @@
+9/10/2025 7:27:40 PM : Network Model Service Test Client is up and running...
+9/10/2025 7:27:40 PM : Result directory: ../Results
+9/10/2025 7:27:45 PM : Getting extent values method started.
+9/10/2025 7:27:50 PM : Getting extent values method failed for TERMINAL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.1055666. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 

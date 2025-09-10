@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:cim="http://iec.ch/TC57/2010/CIM-schema-cim15#"
+	xmlns:ftn="http://www.ftnydro.com/CIM15/2010/extension#">
+
+<cim:CurveData rdf:ID="CurveData_1">
+    <cim:CurveData.xvalue>0.8</cim:CurveData.xvalue>
+    <cim:CurveData.y1value>1.0</cim:CurveData.y1value>
+    <cim:CurveData.y2value>0.95</cim:CurveData.y2value>
+    <cim:CurveData.y3value>0.9</cim:CurveData.y3value>
+</cim:CurveData>
+
+<cim:ReactiveCapabilityCurve rdf:ID="RCC_1">
+    <cim:ReactiveCapabilityCurve.SynchronousMachines rdf:resource="#SM_1"/>
+    <cim:Curve.CurveDatas rdf:resource="#CurveData_1"/>
+    <cim:Curve.curveStyle>straightLineYValues</cim:Curve.curveStyle>
+    <cim:Curve.xMultiplier>none</cim:Curve.xMultiplier>
+    <cim:Curve.xUnit>p</cim:Curve.xUnit>
+    <cim:Curve.y1Multiplier>none</cim:Curve.y1Multiplier>
+    <cim:Curve.y1Unit>VAr</cim:Curve.y1Unit>
+</cim:ReactiveCapabilityCurve>
+
+<cim:TapChangerControl rdf:ID="TCC_1">
+    <cim:TapChangerControl.limitVoltage>110.0</cim:TapChangerControl.limitVoltage>
+    <cim:TapChangerControl.lineDropCompensation>true</cim:TapChangerControl.lineDropCompensation>
+    <cim:TapChangerControl.lineDropR>0.02</cim:TapChangerControl.lineDropR>
+    <cim:TapChangerControl.lineDropX>0.04</cim:TapChangerControl.lineDropX>
+    <cim:TapChangerControl.reverseLineDropR>0.0</cim:TapChangerControl.reverseLineDropR>
+    <cim:TapChangerControl.reverseLineDropX>0.0</cim:TapChangerControl.reverseLineDropX>
+    <cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>
+    <cim:RegulatingControl.mode>voltage</cim:RegulatingControl.mode>
+    <cim:RegulatingControl.monitoredPhase>ABC</cim:RegulatingControl.monitoredPhase>
+    <cim:RegulatingControl.RegulatingCondEq rdf:resource="#SomeConductingEquipment"/>
+    <cim:RegulatingControl.targetRange>2.5</cim:RegulatingControl.targetRange>
+    <cim:RegulatingControl.targetValue>110.0</cim:RegulatingControl.targetValue>
+</cim:TapChangerControl>
+
+<cim:SynchronousMachine rdf:ID="SM_1">
+    <cim:RegulatingCondEq.Controls rdf:resource="#TCC_1"/>
+    <cim:ConductingEquipment.Terminals rdf:resource="#Term_1"/>
+    <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+    <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+</cim:SynchronousMachine>
+
+<cim:Terminal rdf:ID="Term_1"/>
+
+</rdf:RDF>
